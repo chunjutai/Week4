@@ -33,7 +33,6 @@ img{
     padding: 20px 30px 20px 0;
     cursor: pointer;
     font-size: 28px;
-    cursor: pointer;
     border: none;
     background-color: transparent;
 }
@@ -374,13 +373,10 @@ img{
         width: 9.7%;/*48.5/5=9.7希望.page一直保持與.product li等寬*/
     }
     .mail{
-        width: 100%;
+        width: 50%;
     }
     .mail .mailInput{
         width: 100%;
-    }
-    .mail button{
-        width: 64px;
     }
     .contact img{
         margin-bottom: 40px;
@@ -406,9 +402,6 @@ img{
     .subscribeForm label{
         margin-bottom: 30px;
         margin-right: 0;
-    }
-    .mail{
-        width: 50%;
     }
 }
 @media(max-width: 568px){
