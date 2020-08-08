@@ -233,9 +233,14 @@ img{
     justify-content: space-between;
     margin-bottom: 30px;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .contact img{
     width: 172px;
-    margin-bottom: 115px;
+    margin-top: 10px;
 }
 .footerLink{
     display: flex;
@@ -379,6 +384,7 @@ img{
         width: 100%;
     }
     .contact img{
+        margin-top: 0;
         margin-bottom: 40px;
     }
     .slogan{
